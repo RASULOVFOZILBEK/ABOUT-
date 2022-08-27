@@ -1,0 +1,89 @@
+@import 'fonts.css';
+
+* {
+     margin: 0;
+     padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+}
+
+:root {
+     --r-m: 'raleway-medium';
+     --r-r: 'raleway-regular';
+}
+
+body {
+     min-width: 320px;
+}
+
+/* header start */
+
+header {
+     background: url(../img/header-fon.jpg) no-repeat center/cover;
+     width: 100%;
+     height: 100vh;
+}
+
+header .header__nav-link {
+     font-size: 12px;
+     color: #191919;
+     font-family: var(--r-m);
+     text-transform: uppercase;
+     margin-left: 28px;
+     transition: 1s;
+}
+
+header .header__nav-link:hover {
+     color: green;
+}
+
+header .header-button {
+     font-size: 15px;
+     color: green;
+}
+
+header .text h1 {
+     font-size: 35px;
+     color: black;
+     margin-top: 74px;
+}
+
+header .text p {
+     max-width: 450px;
+     width: 100%;
+     color: gray;
+     font-size: 15px;
+     margin-top: 30px;
+}
+
+header .text a {
+     width: 190px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 54px;
+     font-size: 12px;
+     text-transform: uppercase;
+     color: white;
+     background: green;
+     margin-top: 50px;
+     transition: 1s;
+}
+
+header .text a:hover {
+     color: green;
+     background: white;
+}
